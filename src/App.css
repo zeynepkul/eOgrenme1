@@ -1,0 +1,164 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*.Menu {
+  width: 570px;
+  height: 450px;
+  border-radius: 10px;
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}*/
+
+/*.button {
+  width: 800px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: white;
+}*/
+
+/*.button-selected {
+  background-color: #e0d68a;
+}*/
+
+/*.options {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}*/
+
+input {
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+/* Login ekranı sayfada hizalaması */
+.Login {
+  height: 90vh;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+}
+/* Login ekranı sayfada hizalaması */
+form {
+  display: block;
+  position: relative;
+  margin-top: 50px;
+}
+
+/* Login ekranı kenarlıkları. */
+form:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  z-index: 1;
+  background-image: linear-gradient(to bottom right, pink, orange);
+}
+/* Login ekranı*/
+form .form-inner {
+  position: relative;
+  display: block;
+  background-color: #fff;
+  padding: 45px;
+  z-index: 2;
+}
+form .form-inner h2 {
+  color: orange;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+form .form-inner .form-group {
+  display: block;
+  width: 500px;
+  margin-bottom: 15px;
+}
+.form-group .form-inner label {
+  display: block;
+  color: #666;
+  font-size: 12px;
+  margin-bottom: 5px;
+  transition: 04s;
+}
+
+/* Login ekranında numara ve şifreye tıkladığımızda değişen renk */
+.form-inner .form-group:focus-within label {
+  color: orange;
+}
+
+/* Login ekranındaki numara ve şifre */
+form .form-inner .form-group input {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #e3e3e3;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+form .form-inner .form-group input:focus {
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Login ekranındaki Login Butonu */
+form .form-inner input[type="submit"] {
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, pink, orangered, yellow);
+  background-size: 200%;
+  background-position: 0%;
+  transition: 0.4s;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+form .form-inner input[type="submit"]:hover {
+  background-position: 100% 0%;
+}
+.student {
+  width: 1000px;
+  height: 300px;
+  background-color: pink;
+  color: black;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lessons {
+  width: 500px;
+  height: 30px;
+  background-color: pink;
+  color: black;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 5px;
+}
+
+/* öğrenci girişindeki kişinin ismi */
+.maintable {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #95a7e8;
+}

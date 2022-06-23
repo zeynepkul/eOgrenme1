@@ -106,7 +106,7 @@ export default function Bos({ lesson }) {
                       key={student.code}
                     >
                       {columns.map((column) => {
-                        const value = student.personel[column.id]; //öğrenci numarasını value dedim
+                        const value = student.personel[column.id]; //öğrenci numarası = value
                         return (
                           <TableCell key={column.id} align={column.align}>
                             {column.format && typeof value === "number"

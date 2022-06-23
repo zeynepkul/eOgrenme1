@@ -93,7 +93,6 @@ function App() {
         {pageState === "admin" && <Admin />}
         {pageState === "bos" && <Bos />}
         {pageState === "student" && <NewStudent />}
-
         {pageState === "lesson" && <AddLesson />}
       </LessonContext.Provider>
     </div>

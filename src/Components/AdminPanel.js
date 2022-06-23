@@ -44,8 +44,6 @@ function AdminPanel() {
         <Button variant="text" style={{ color: "black" }} onClick={Logout}>
           çıkış
         </Button>
-
-        {/* <Button onClick={setPageState("student")}> Öğrenci Ekle</Button> */}
       </div>
 
       {lessonList?.map((item) => (

@@ -1,5 +1,4 @@
 /* Eklenmiş öğrencinin derslerinin görüldüğü ve pdf indirildiği yer. */
-// import React, { useContext, useState, useEffect } from 'react'
 import { LessonContext } from "../Helpers/Contex";
 import "../App.css";
 import * as React from "react";

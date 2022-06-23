@@ -1,3 +1,4 @@
+/* login ekranı */
 import React, { useState, useContext } from "react";
 import LoginForm from "./LoginForm";
 import { LessonContext } from "../Helpers/Contex";

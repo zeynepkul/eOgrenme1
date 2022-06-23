@@ -54,10 +54,10 @@ export default function Bos({ lesson }) {
         backgroundColor: "#eef0f2",
       }}
     >
+      <div>Öğrenci Ekle</div>
       <Fab onClick={handleOpen} size="small" color="black" aria-label="add">
-        <AddIcon />
-      </Fab>
-
+        <AddIcon />{" "}
+      </Fab>{" "}
       <TableContainer sx={{ maxHeight: 500 }}>
         {/* <Button size ="medium"variant="outlined" onClick={handleOpen} >Öğrenci ekle</Button> */}
 
@@ -121,7 +121,6 @@ export default function Bos({ lesson }) {
           </TableBody>
         </Table>
       </TableContainer>
-
       <AddStudentModal
         handleClose={handleClose}
         handleOpen={handleOpen}

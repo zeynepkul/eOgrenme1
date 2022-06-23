@@ -19,7 +19,7 @@ function App() {
       personel: {
         name: "Ege Öztürk",
         password: "123",
-        no: "31",
+        no: "3",
       },
       lessons: {
         Matematik: {
@@ -63,7 +63,7 @@ function App() {
     },
     {
       name: "Java",
-      code: "123",
+      code: "1234",
       file: "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
     },
     {
